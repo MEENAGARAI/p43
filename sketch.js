@@ -33,14 +33,14 @@ function draw() {
   rotate(mAngle);
   stroke(0,0,255);
   strokeWeight(7);
-  line(130,0,0,0);
+  line(100,0,0,0);
   pop();
 
   push();
   rotate(hAngle);
   stroke(0,255,0);
   strokeWeight(9);
-  line(110,0,0,0);
+  line(50,0,0,0);
   pop();
 
   noFill()
