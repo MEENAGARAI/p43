@@ -20,6 +20,7 @@ function draw() {
   hAngle = map(h,0,12,0,360)
 
   translate(width/2,height/2);
+  rotate(-90)
 
   push();
   rotate(sAngle);
