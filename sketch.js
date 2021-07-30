@@ -26,25 +26,27 @@ function draw() {
   rotate(sAngle);
   stroke(255,0,0);
   strokeWeight(5);
-  line(150,0,0,0);
+  line(0,0,150,0);
   pop();
 
   push();
   rotate(mAngle);
   stroke(0,0,255);
   strokeWeight(7);
-  line(100,0,0,0);
+  line(0,0,120,0);
   pop();
 
   push();
   rotate(hAngle);
   stroke(0,255,0);
   strokeWeight(9);
-  line(50,0,0,0);
+  line(0,0,90,0);
   pop();
 
   noFill()
-  arc(50, 50, 80, 80, 0, PI + QUARTER_PI, PIE);
+  arc(0,0,400,400,0,sAngle);
+  arc(0,0,370,370,0,mAngle);
+  arc(0,0,340,340,0,hAngle);
 
   drawSprites();
 }
