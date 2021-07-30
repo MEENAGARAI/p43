@@ -44,8 +44,13 @@ function draw() {
   pop();
 
   noFill()
+  stroke(255,0,0);
   arc(0,0,400,400,0,sAngle);
+  
+  stroke(0,0,255);
   arc(0,0,370,370,0,mAngle);
+  
+  stroke(0,255,0);
   arc(0,0,340,340,0,hAngle);
 
   drawSprites();
